@@ -1,11 +1,11 @@
 // IMPORTS
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import LeftSide from './components/LeftSide';
-import RightSide from './components/RightSide';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import styled from 'styled-components';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
+
 
 // FUNCTIONAL COMPONENT
 export default function App() {
@@ -16,15 +16,14 @@ export default function App() {
   // JSX SECTION
   return (
     <div className="App">
-      <Header />
-      <div style={{display: 'flex', justifyContent: 'space-between'}}>
-        <LeftSide />
-        <Main />
-        <RightSide />
-      </div>
+      <NavBar />
+      <Home />
+      <About />
+      <Projects />
+      <ContactMe />
     </div>
   );
 }
 
-// STYLED COMPONENTS
+
  
