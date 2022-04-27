@@ -6,20 +6,20 @@ import CardGroup from 'react-bootstrap/CardGroup';
 // FUNCTIONAL COMPONENT
 export default function Projects() {
     // VANILLA JAVASCRIPT SECTION
-    const wrapperStyle = { display: 'flex', flexDirection: 'column', alignItems: 'center' }
+    const divWrapperStyle = { display: 'flex', flexDirection: 'column', alignItems: 'center' }
+
 
     // JSX SECTION
   return (
-    <div style={wrapperStyle}>
+    <div style={divWrapperStyle}>
         <h2>PROJECTS</h2>
         <CardGroup>
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Bug Tracker</Card.Title>
                     <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.
+                    Create a bug-tracker app to show case.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -29,10 +29,9 @@ export default function Projects() {
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Payroll Portal</Card.Title>
                     <Card.Text>
-                    This card has supporting text below as a natural lead-in to additional
-                    content.{' '}
+                    Create an app that uses a payroll portal for businesses.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
@@ -42,11 +41,9 @@ export default function Projects() {
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Crypto-Based Application</Card.Title>
                     <Card.Text>
-                    This is a wider card with supporting text below as a natural lead-in to
-                    additional content. This card has even longer content than the first to
-                    show that equal height action.
+                    Create crypto-based application to showcase here.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>

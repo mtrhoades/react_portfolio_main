@@ -6,11 +6,11 @@ import Button from 'react-bootstrap/Button';
 // FUNCTIONAL COMPONENT
 export default function ContactMe() {
     // VANILLA JAVASCRIPT SECTION
-    const wrapperStyle = { display: 'flex', flexDirection: 'column', alignItems: 'center' }
+    const divWrapperStyle = { display: 'flex', flexDirection: 'column', alignItems: 'center' }
 
     // JSX SECTION
   return (
-    <div style = {wrapperStyle}>
+    <div style = {divWrapperStyle}>
         <h2>CONTACT ME</h2>
         <Form>
             <Form.Group className="mb-3" controlId="formBasicName">
@@ -33,6 +33,7 @@ export default function ContactMe() {
                 Submit
             </Button>
         </Form>
+        <br></br>
     </div>
   )
 }

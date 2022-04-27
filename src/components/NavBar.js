@@ -8,12 +8,13 @@ import Navbar from 'react-bootstrap/Navbar';
 // FUNCTIONAL COMPONENT
 export default function NavBar() {
     // VANILLA JAVASCRIPT SECTION
+    const navStyle = { backgroundColor: '#04151F' }
 
-
-
+    
     // JSX SECTION
   return (
-    <Navbar style ={{backgroundColor: '#04151F'}} variant="dark">
+    <div>
+    <Navbar style={ navStyle } variant="dark">
       <Container>
         <Navbar.Brand href="#home">MATTHEW RHOADES</Navbar.Brand>
         <Nav className="me-auto">
@@ -23,6 +24,7 @@ export default function NavBar() {
         </Nav>
       </Container>
     </Navbar>
+    </div>
   )
 }
 
