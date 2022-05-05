@@ -10,17 +10,19 @@ import ContactMe from './components/ContactMe';
 // FUNCTIONAL COMPONENT
 export default function App() {
   // VANILLA JAVASCRIPT SECTION
-
+  const divWrapperStyle = { backgroundColor: '#00A9A5'}
 
 
   // JSX SECTION
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
-      <About />
-      <Projects />
-      <ContactMe />
+    <div className="App" >
+      <body style={ divWrapperStyle } >
+        <NavBar />
+        <Home />
+        <About />
+        <Projects />
+        <ContactMe />
+      </body>
     </div>
   );
 }

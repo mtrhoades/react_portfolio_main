@@ -6,14 +6,14 @@ import CardGroup from 'react-bootstrap/CardGroup';
 // FUNCTIONAL COMPONENT
 export default function Projects() {
     // VANILLA JAVASCRIPT SECTION
-    const divWrapperStyle = { display: 'flex', flexDirection: 'column', alignItems: 'center' }
+    const divWrapperStyle = { paddingTop: '30px', display: 'flex', flexDirection: 'column', alignItems: 'center' }
 
 
     // JSX SECTION
   return (
     <div style={divWrapperStyle}>
         <h2>PROJECTS</h2>
-        <CardGroup>
+        <CardGroup style={{ height: '18rem' }}>
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
                 <Card.Body>
@@ -22,9 +22,6 @@ export default function Projects() {
                     Create a bug-tracker app to show case.
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
             </Card>
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
@@ -34,9 +31,6 @@ export default function Projects() {
                     Create an app that uses a payroll portal for businesses.
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
             </Card>
             <Card>
                 <Card.Img variant="top" src="holder.js/100px160" />
@@ -46,9 +40,6 @@ export default function Projects() {
                     Create crypto-based application to showcase here.
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
             </Card>
         </CardGroup>
     </div>

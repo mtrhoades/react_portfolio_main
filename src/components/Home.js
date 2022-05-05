@@ -22,7 +22,7 @@ export default function Home() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
                 </Card.Text>
-                <Button style={{width: '150px'}} variant="primary">Hire Me Today!</Button>
+                <Button id="resumeButton" style={{width: '100px', backgroundColor: '#04151F', color: '#586994', border: 'none'}}>Resume</Button>
             </Card.Body>
         </Card>
     </div>

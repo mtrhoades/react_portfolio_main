@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 // FUNCTIONAL COMPONENT
 export default function ContactMe() {
     // VANILLA JAVASCRIPT SECTION
-    const divWrapperStyle = { display: 'flex', flexDirection: 'column', alignItems: 'center' }
+    const divWrapperStyle = { paddingTop: '30px', display: 'flex', flexDirection: 'column', alignItems: 'center' }
 
     // JSX SECTION
   return (

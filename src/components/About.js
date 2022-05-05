@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div style={divWrapperStyle}>
         <h2>ABOUT ME</h2>
-        <Accordion> {/* defaultActiveKey="0" */}
+        <Accordion > {/* defaultActiveKey="0" */}
             <Accordion.Item eventKey="0">
                     <Accordion.Header>Background</Accordion.Header>
                     <Accordion.Body>
